@@ -19,7 +19,7 @@ var path = require('path');
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
 /*app.use('/', router);*/
 
-app.listen(process.env.PORT || 3000, (req, res) => {
+app.listen(process.env.PORT, (req, res) => {
   
     console.log("The server started on port  !!!!!!");
 });
