@@ -4,7 +4,9 @@ const bodyParser = require("body-parser");
 const multer = require('multer');
 var mongojs = require('mongojs');
 var ObjectId = require('mongodb').ObjectID;
-var db = mongojs('somiu', ['data']);
+//var db = mongojs('somiu', ['data']);
+var db = mongojs("mongodb+srv://jeel:6809@StudentData-tm21t.mongodb.net/somiu?retryWrites=true&w=majority");
+
 
 const app = express();
 app.use(cors({ origin: "*" }));
