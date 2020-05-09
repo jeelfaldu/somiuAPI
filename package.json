@@ -1,0 +1,20 @@
+{
+  "name": "fileuploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fun Of Heuristic",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongojs": "^3.1.0",
+    "multer": "^1.4.2",
+    "node-static": "^0.7.11",
+    "website-scraper": "^4.2.1"
+  }
+}
